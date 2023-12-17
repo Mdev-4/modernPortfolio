@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(19,97,135,1) 39%, rgba(3,34,75,1) 100%);
+background: linear-gradient(90deg, rgb(2, 1, 24) 0%, rgb(67, 86, 146) 39%, rgb(68, 24, 70) 100%);
     height: 100%;
     width: 100%;
     display: flex;
@@ -18,11 +18,11 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(19,97,135,1) 39%, rgb
   svg {
     height: 300px;
     width: 300px;
-    stroke: white;
+    stroke: rgb(237, 241, 212);
     fill-opacity: 0;
-    stroke-width: 3px;
+    stroke-width: 10px;
     stroke-dasharray: 4500;
-    animation: draw 20s ease infinite;
+    animation: draw 20s ease-in infinite ;
     position: absolute;
     
   }
@@ -34,6 +34,11 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(19,97,135,1) 39%, rgb
     100% {
       stroke-dashoffset: 0;
     }
+  }
+  .l{
+    position: relative;
+    left: 50px;
+    top: 39px;
   }
   
   .name-container {
@@ -48,4 +53,18 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(19,97,135,1) 39%, rgb
     text-transform: uppercase;
     margin-left: 20px;
     font-weight: bolder;
+  }
+
+  @media screen and (max-width: 700px){
+    .loading-page{
+      height: 100%;
+    }
+    .name-container{
+      text-align: center;
+      margin-top: 23px;
+    }
+    svg{
+      height: 250px;
+      width: 250px;
+    }
   }

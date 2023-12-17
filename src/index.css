@@ -12,6 +12,14 @@
 body {
   font-family: "Work Sans", sans-serif;
 }
+body::-webkit-scrollbar{
+  width: 10px;
+  background: #dce2dc;
+}
+body::-webkit-scrollbar-thumb{
+  background: #07d2f1b2;
+  border-radius: 0 0 5px 5px;
+}
 
 body:has(.card[data-color="blue"]:hover) {
   background-color: rgb(var(--blue-rgb) / 25%);
@@ -115,11 +123,11 @@ body:has(.card[data-color="green"]:hover) {
 }
 
 .block-container .btn-back-red {
-  background: linear-gradient(135deg, #ff4b1f -20%, #ff9068 120%);
+  background: linear-gradient(135deg, #ee9004 -20%, #dd4007 120%);
 }
 
 .block-container .btn-back-green {
-  background: linear-gradient(135deg, #adfda2 -20%, #11d3f3 120%);
+  background: linear-gradient(135deg, #96fc89 -20%, #07d2f1 120%);
 }
 
 .block-container .btn-back-yellow {
