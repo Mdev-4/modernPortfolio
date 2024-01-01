@@ -8,7 +8,7 @@ const Information = ({ currentStage }) => {
     <div className="info-box">
       <h1 className="sm:text-xl sm:leading-snug text-center neo-brutalism relative top-4 text-white ">
         Hi, I'm<span className="font-semibold mx-2 text-white">Mouhamed</span>{" "}
-        👋
+        👋🏾
         <br />
         <span className="text-primary">A Software Engineer form Senegal 🇸🇳</span>
         <br />

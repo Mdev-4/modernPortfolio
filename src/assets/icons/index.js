@@ -27,6 +27,11 @@ import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import python from './python.svg'
+import ai from './ai.png'
+import dash from './dash.png'
+import bank from './bank.svg'
+import shirt from './t-shirt.svg'
+
 
 
 
@@ -59,5 +64,9 @@ export {
     contact,
     soundon,
     soundoff, 
-    python
+    python,
+    ai,
+    dash,
+    bank,
+    shirt
 }
